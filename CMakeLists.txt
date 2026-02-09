@@ -130,6 +130,7 @@ endif()
 ################################################################################
 if ("${CMAKE_CXX_COMPILER_ID}" MATCHES "GNU|Clang|AppleClang")
     set(COMMON_FLAGS "-Wall -Wextra -Wno-error \
+            -Wno-macro-redefined \
             -Wno-return-type \
             -Wno-unused-parameter \
             -Wno-unused-function \
