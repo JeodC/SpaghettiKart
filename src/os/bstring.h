@@ -28,7 +28,7 @@ extern "C" {
 
 extern void bcopy(const void*, void*, size_t);
 extern int bcmp(const void*, const void*, int);
-extern void bzero(void*, size_t);
+extern void memset(void*, 0, size_t);
 extern void blkclr(void*, int);
 
 #ifdef __cplusplus
